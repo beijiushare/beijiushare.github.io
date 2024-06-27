@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Thu, 27 Jun 2024 09:35:42 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>高数复习大一下</title><link>https://beijiushare.github.io/post/gao-shu-fu-xi-da-yi-xia.html</link><description>&gt; [!TIP]&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Thu, 27 Jun 2024 12:20:56 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>高数复习大一下</title><link>https://beijiushare.github.io/post/gao-shu-fu-xi-da-yi-xia.html</link><description>&gt; [!TIP]&#13;
 &gt; 相关参考材料来自2021、2022、2023年考题&#13;
 &gt; [2020级高数二期末解答A卷（少学时）.pdf](https://github.com/user-attachments/files/16010838/2020.A.pdf)&#13;
 &gt; [2022级高数二期末解答A卷（少学时）.pdf](https://github.com/user-attachments/files/16010855/2022.A.pdf)&#13;
@@ -10,7 +10,7 @@
 ### 二元函数的极限&#13;
 &#13;
 &gt;&gt; A&#13;
-&gt; $\lim_{(x,y) \to (0.0)}\left(x\mathrm{\sin}\left(\frac{1}{y}\right)+y\mathrm{\cos}\left(\frac{1}{x}\right)\right)$&#13;
+&gt; $\lim_{(x,y) \to (0,0)}x\mathrm{\sin}\left(\frac{1}{y}\right)+y\mathrm{\cos}\left(\frac{1}{x}\right)$&#13;
 &gt; **无穷小乘以有界变量任然为无穷小**，故 $x\mathrm{\sin}\left(\frac{1}{y}\right)$ 与 $y\mathrm{\cos}\left(\frac{1}{x}\right)$ 皆为0，故此式结果为0，有界。</description><guid isPermaLink="true">https://beijiushare.github.io/post/gao-shu-fu-xi-da-yi-xia.html</guid><pubDate>Thu, 27 Jun 2024 08:58:53 +0000</pubDate></item><item><title>大英复习大一下</title><link>https://beijiushare.github.io/post/da-ying-fu-xi-da-yi-xia.html</link><description>## 大英2024年大一下复习翻译部分&#13;
 &#13;
 [![markdown](https://i0.hdslb.com/bfs/garb/e6990f8cb288b761776266818c613b520531248f.png@80h.webp)](https://github.com/user-attachments/files/15937246/default.pdf)&#13;
