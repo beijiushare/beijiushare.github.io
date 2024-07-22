@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Mon, 22 Jul 2024 14:10:02 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>笔记测试</title><link>https://beijiushare.github.io/post/bi-ji-ce-shi.html</link><description>## 我是测试&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Mon, 22 Jul 2024 14:12:14 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>笔记测试</title><link>https://beijiushare.github.io/post/bi-ji-ce-shi.html</link><description>## 我是测试&#13;
 让我看看有没有啥问题&#13;
 &#13;
-[关于笔记](#4 )&#13;
+[关于笔记](https://beijiushare.github.io/about.html '有啥问题评论区讲讲呗')&#13;
 &#13;
 ## 笔记&#13;
 [在PC端查看或直接保存](https://beijiushare.github.io/pdfs/1.pdf '这将带来更好的体验')&#13;
