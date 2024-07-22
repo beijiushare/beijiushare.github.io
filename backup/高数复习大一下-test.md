@@ -12,3 +12,7 @@
 ### test4
 直接使用浏览器自带功能
 `Gmeek-html<iframe src="https://beijiushare.github.io/pdfs/1.pdf" width="100%" height="600px"></iframe>`
+
+### test5
+使用免费的maifile服务
+`Gmeek-html<iframe src="https://maipdf.cn/est/a669e5bbe084cf/pdf" width="100%" height="600px"></iframe>`
