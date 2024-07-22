@@ -9,4 +9,6 @@
 使用pdf.js，为兼容不同版本浏览器，默认使用传统版本
 `Gmeek-html<iframe src="pdfviewer/pdf-viewer.html?file=https://github.com/user-attachments/files/16322937/default.pdf" width="100%" height="600px"></iframe>`
 
+### test4
+直接使用浏览器自带功能
 `Gmeek-html<iframe src="https://beijiushare.github.io/pdfs/1.pdf" width="100%" height="600px"></iframe>`
