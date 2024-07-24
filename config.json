@@ -6,5 +6,6 @@
     "startSite":"06/22/2024",
     "bottomText":"转载请注明出处",
     "script":"<script src='https://blog.meekdai.com/assets/GmeekTOC.js'></script>",
+    "allHead":"<script src='https://blog.meekdai.com/assets/GmeekVercount.js'></script>",
     "singlePage":["about"]
 }
