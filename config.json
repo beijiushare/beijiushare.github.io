@@ -6,7 +6,14 @@
     "startSite":"06/22/2024",
     "bottomText":"转载请注明出处",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>",
-    "indexScript":"<script src='https://beijiushare.github.io/live2d/autoload.js'></script>"
+    "indexScript":"<script>
+      if (window.innerWidth >= 1250) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://beijiushare.github.io/live2d/autoload.js";
+        document.body.appendChild(script);
+      }
+    </script>"
     "allHead":"<script src='https://blog.meekdai.com/assets/GmeekVercount.js'></script>",
     "singlePage":["about"]
 }
