@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>北酒blog的屏幕录制</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* 文本水平居中 */
+        height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
+      }
+      .title-box {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .title-box h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+      }
+      button {
+        background-color: #4caf50; /* 绿色背景 */
+        border: none; /* 去掉边框 */
+        color: white; /* 白色文字 */
+        padding: 15px 32px; /* 内边距 */
+        text-align: center; /* 文字居中 */
+        text-decoration: none; /* 去掉下划线 */
+        display: inline-block; /* 行内块元素 */
+        font-size: 16px; /* 字体大小 */
+        margin: 4px 2px; /* 外边距 */
+        cursor: pointer; /* 鼠标悬停时显示手型 */
+        border-radius: 12px; /* 圆角 */
+        transition: background-color 0.3s ease; /* 背景颜色过渡效果 */
+      }
+      button:hover {
+        background-color: #45a049; /* 悬停时变暗 */
+      }
+      a {
+        color: #007bff; /* 蓝色文字 */
+        text-decoration: none; /* 去掉下划线 */
+        margin-bottom: 20px;
+        display: inline-block;
+      }
+      a:hover {
+        text-decoration: underline; /* 悬停时显示下划线 */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-box">
+      <h1>屏幕录制工具</h1>
+    </div>
+    <a href="https://beijiushare.github.io/">北酒blog</a>
+    提供了此页面,方便您录制屏幕并分享给他人观看.无需下载软件,仅在浏览器中进行(当然,需要使用较为现代的浏览器以支持)<br />
+    通过利用WebRTC的getDisplayMediaAPI获取屏幕共享流,使用MediaRecorderAPI录制视频,<br />
+    您可以点击下方"录制屏幕"按钮开始录制,并选择录制的窗口,点击结束共享后,可以下载为"video.webm"<br />
+    文件,该文件可以使用视频播放器观看,也可以使用浏览器打开,录制没有准确的时长限制,但建议不要太长.<br />
+    当然,你也可以下载本页面文件,以在没有网络,无法访问本页面的情况下使用此功能.
+    <a href="#" id="downloadLink">下载本HTML文件</a>
+    <button>录制屏幕</button>
+    <script>
+      const button = document.querySelector("button");
+      button.addEventListener("click", async () => {
+        const stream = await navigator.mediaDevices.getDisplayMedia({
+          video: true,
+        });
+
+        const mime = MediaRecorder.isTypeSupported("video/webm;codecs=h264")
+          ? "video/webm;codecs=h264"
+          : "video/webm";
+
+        const mediaRecorder = new MediaRecorder(stream, { mimeType: mime });
+
+        const chunks = [];
+        mediaRecorder.addEventListener("dataavailable", function (e) {
+          chunks.push(e.data);
+        });
+
+        mediaRecorder.addEventListener("stop", () => {
+          const blob = new Blob(chunks, { type: chunks[0].type });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "video.webm";
+          a.click();
+        });
+        mediaRecorder.start();
+      });
+
+      const downloadLink = document.getElementById("downloadLink");
+      downloadLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        const html = document.documentElement.outerHTML;
+        const blob = new Blob([html], { type: "text/html" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "screen_sharing.html";
+        a.click();
+      });
+    </script>
+  </body>
+</html>
