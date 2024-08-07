@@ -166,7 +166,12 @@
           engineOrder.forEach((engine) => {
             const button = document.createElement("button");
             button.innerText = engine.charAt(0).toUpperCase() + engine.slice(1);
-            button.onclick = () => showResult(engine, encodedQuery);
+            if (engine === "baidu" || engine === "yandex") {
+              button.onclick = () =>
+                window.open(`${engines[engine]}${encodedQuery}`, "_blank");
+            } else {
+              button.onclick = () => showResult(engine, encodedQuery);
+            }
             buttonsDiv.appendChild(button);
           });
           showResult("bing", encodedQuery); // 默认显示必应搜索结果
