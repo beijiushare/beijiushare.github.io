@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Wed, 07 Aug 2024 02:37:41 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>笔记封面</title><link>https://beijiushare.github.io/post/bi-ji-feng-mian.html</link><description>## 笔记封面&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Wed, 07 Aug 2024 02:39:30 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>笔记封面</title><link>https://beijiushare.github.io/post/bi-ji-feng-mian.html</link><description>## 笔记封面&#13;
 笔记封面模板&#13;
 &#13;
 [关于笔记](https://beijiushare.github.io/about.html '有啥问题评论区讲讲呗')&#13;
@@ -34,12 +34,17 @@
 - [北酒搜-极简页面|一次性多引擎](https://beijiushare.github.io/html/北酒搜.html)&#13;
 &#13;
 ### 一些好玩的前端效果&#13;
+&lt;details&gt;  &#13;
+    &lt;summary&gt;点击展开查看&lt;/summary&gt;  &#13;
+    &lt;pre&gt;&#13;
 - [猫猫拼图](https://beijiushare.github.io/html/拼图.html) 转自公众号[前端嘛](https://mp.weixin.qq.com/s/wPIve3ActS_jpqRW_-0u-g)&#13;
 - [鱼缸漏水加点水吧!](https://beijiushare.github.io/html/鱼缸.html) 转自公众号[前端嘛](https://mp.weixin.qq.com/s/q3zunJ6BQNLK0GVYGMXYzA)&#13;
 - [小幽灵盯着我的鼠标](https://beijiushare.github.io/html/小幽灵.html) 转自公众号[前端嘛](https://mp.weixin.qq.com/s/wgIr9yfqSzGmBq4E6nsXzg)&#13;
 - [手表](https://beijiushare.github.io/html/手表.html) 转自公众号[前端嘛](https://mp.weixin.qq.com/s/DReTRbWvJ2JmGkvoGaxi9w)&#13;
 - [好玩的时钟](https://beijiushare.github.io/html/好玩的时钟.html) 转自公众号[前端嘛](https://mp.weixin.qq.com/s/OwMDrqcfuQdF8RtugCMbrg)&#13;
 - [嘻嘻不嘻嘻](https://beijiushare.github.io/html/嘻嘻不嘻嘻.html) 转自公众号[前端嘛](https://mp.weixin.qq.com/s/AMGPvfy_lvyL8PV2JtcW5A)&#13;
+    &lt;/pre&gt;&#13;
+&lt;/details&gt;&#13;
 &#13;
 ### 收藏链接&#13;
 &#13;
