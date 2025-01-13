@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Sun, 11 Aug 2024 13:26:24 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>笔记封面</title><link>https://beijiushare.github.io/post/bi-ji-feng-mian.html</link><description>## 笔记封面&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Mon, 13 Jan 2025 11:41:14 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>拼多多风格新年祝福(hpy-pdd)</title><link>https://beijiushare.github.io/post/pin-duo-duo-feng-ge-xin-nian-zhu-fu-%28hpy-pdd%29.html</link><description># 拼多多风格新年祝福(hpy-pdd)&#13;
+&#13;
+[Github仓库地址](https://github.com/beijiushare/hpy-pdd)&#13;
+[Gitee仓库地址](https://gitee.com/beijiushare/hpy-pdd)&#13;
+&#13;
+## 介绍&#13;
+&#13;
+这是一款基于 Vue.js 的拼多多风格新年祝福项目。</description><guid isPermaLink="true">https://beijiushare.github.io/post/pin-duo-duo-feng-ge-xin-nian-zhu-fu-%28hpy-pdd%29.html</guid><pubDate>Mon, 13 Jan 2025 11:28:53 +0000</pubDate></item><item><title>笔记封面</title><link>https://beijiushare.github.io/post/bi-ji-feng-mian.html</link><description>## 笔记封面&#13;
 笔记封面模板&#13;
 &#13;
 [关于笔记](https://beijiushare.github.io/about.html '有啥问题评论区讲讲呗')&#13;
