@@ -1,11 +1,11 @@
 # 拼多多风格新年祝福(hpy-pdd)
 
-[Github 仓库地址](https://github.com/beijiushare/hpy-pdd)
-[Gitee 仓库地址](https://gitee.com/beijiushare/hpy-pdd)
+[Github仓库地址](https://github.com/beijiushare/hpy-pdd)
+[Gitee仓库地址](https://gitee.com/beijiushare/hpy-pdd)
 
 ## 介绍
 
-这是一项基于 Vue.js 的拼多多风格新年祝福项目。向您说明以下几点：
+这是一款基于 Vue.js 的拼多多风格新年祝福项目。向您说明以下几点：
 
 - 项目使用 [MIT 开源协议](https://mit-license.org/)，这意味着您可以任意地使用、修改、分发该项目代码。
 - 由于开发能力限制及使用场景考虑，项目仅支持在 `移动端` 查看，未考虑 `PC端` 适配。
