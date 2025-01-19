@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Mon, 13 Jan 2025 13:37:54 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>拼多多风格新年祝福(hpy-pdd)</title><link>https://beijiushare.github.io/post/pin-duo-duo-feng-ge-xin-nian-zhu-fu-%28hpy-pdd%29.html</link><description># 拼多多风格新年祝福(hpy-pdd)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Beijiushare</title><link>https://beijiushare.github.io</link><description>北酒blog</description><copyright>Beijiushare</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://beijiushare.github.io</link></image><lastBuildDate>Sun, 19 Jan 2025 06:52:37 +0000</lastBuildDate><managingEditor>Beijiushare</managingEditor><ttl>60</ttl><webMaster>Beijiushare</webMaster><item><title>简述 | 迭代与递归</title><link>https://beijiushare.github.io/post/jian-shu-%20-%20-die-dai-yu-di-gui.html</link><description># 简述 | 迭代与递归
+
+&gt; [!TIP]
+&gt; 在学习几乎所有编程语言的过程中,编写的第一段代码通常是`打印'Hello World'`,这一简单的输出成果，能瞬间为学习者注入信心与动力.
+&gt; 紧随其后的是`循环语句和条件语句`,它们一起构成了控制程序流程的逻辑核心.它们满足了我们对程序功能的想象:`在一定条件下重复处理任务`,`自动判断并走向不同的执行方向`.
+&gt; 很快,`递归`作为第一个较为复杂的编程概念进入学习者的视野,它以简洁而优雅的方式表达问题的解决思路.
+
+## 迭代
+
+迭代和循环在本质上是相同的.它们都是通过重复执行某段代码来处理一系列相似的操作.在大多数编程语言中,循环(如 for 循环、while 循环)是实现迭代的语法结构。</description><guid isPermaLink="true">https://beijiushare.github.io/post/jian-shu-%20-%20-die-dai-yu-di-gui.html</guid><pubDate>Sun, 19 Jan 2025 06:52:08 +0000</pubDate></item><item><title>拼多多风格新年祝福(hpy-pdd)</title><link>https://beijiushare.github.io/post/pin-duo-duo-feng-ge-xin-nian-zhu-fu-%28hpy-pdd%29.html</link><description># 拼多多风格新年祝福(hpy-pdd)&#13;
 &#13;
 [Github仓库地址](https://github.com/beijiushare/hpy-pdd)&#13;
 [Gitee仓库地址](https://gitee.com/beijiushare/hpy-pdd)&#13;
