@@ -157,7 +157,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>生成器表达式</h2>
 <p>生成器表达式与列表推导式类似，但生成的是一个生成器对象，而不是一个列表。生成器对象可以按需生成元素，从而节省内存。生成器表达式的语法如下：</p>
 <div class="highlight highlight-source-python"><pre class="notranslate">(<span class="pl-s1">expression</span> <span class="pl-k">for</span> <span class="pl-s1">item</span> <span class="pl-c1">in</span> <span class="pl-s1">iterable</span> <span class="pl-k">if</span> <span class="pl-s1">condition</span>)</pre></div>
-<p>例如,生成一个包含 0 到 9 的平方的生成器</p>
+<p>例如,生成一个包含 1 到 10 的平方的生成器</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">list</span> <span class="pl-c1">=</span> (<span class="pl-s1">i</span><span class="pl-c1">**</span><span class="pl-c1">2</span> <span class="pl-k">for</span> <span class="pl-s1">i</span> <span class="pl-c1">in</span> <span class="pl-en">range</span>(<span class="pl-c1">1</span>,<span class="pl-c1">11</span>))
 <span class="pl-k">for</span> <span class="pl-s1">num</span> <span class="pl-c1">in</span> <span class="pl-s1">list</span>:
     <span class="pl-en">print</span>(<span class="pl-s1">num</span>,<span class="pl-s1">end</span><span class="pl-c1">=</span><span class="pl-s">" "</span>)</pre></div>
