@@ -151,7 +151,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>表达力强：可以轻松实现复杂的列表生成逻辑，如多层循环、条件过滤等。</li>
 </ul>
 <p><strong>尽管使用列表推导式可以带来许多便利,但其也存在一些局限(或者说某些情况下不太适合使用):</strong></p>
-<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>-可读性：虽然列表推导式很强大，但过度使用或写得过于复杂可能会降低代码的可读性。在某些情况下，使用普通的循环结构可能更合适. -内存消耗：列表推导式会一次性生成整个列表，如果生成的列表非常大，可能会消耗大量内存。在这种情况下，可以考虑使用生成器表达式（Generator Expression）.</p>
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<ul>
+<li>可读性：虽然列表推导式很强大，但过度使用或写得过于复杂可能会降低代码的可读性。在某些情况下，使用普通的循环结构可能更合适.</li>
+<li>内存消耗：列表推导式会一次性生成整个列表，如果生成的列表非常大，可能会消耗大量内存。在这种情况下，可以考虑使用生成器表达式（Generator Expression）.</li>
+</ul>
 </div>
 <h2>生成器表达式</h2>
 <p>生成器表达式与列表推导式类似，但生成的是一个生成器对象，而不是一个列表。生成器对象可以按需生成元素，从而节省内存。生成器表达式的语法如下：</p>
