@@ -158,7 +158,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 别再让 Windows 自带工具拖垮你的电脑！掌握这些神器，从此告别“解压失败”的尴尬——毕竟，<strong>真正的勇士，敢于直面乱码的期末作业</strong>。</p>
 <p>注:您可以自由复制,更改和使用本文内容以及我提供的材料,但必须注明来源——材料来源自微信公众号 BeijiuX</p>
 <p><strong>关注 BeijiuX 公众号,查看更多内容.</strong></p>
-<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/dc42d85f31617779cb59976310a404b67accebbd67432806ba2d786434435def/68747470733a2f2f696d616765732e636e626c6f67732e636f6d2f636e626c6f67735f636f6d2f626c6f67732f3833383234352f67616c6c65726965732f323434313333342f745f3235303131393036353035375f515132303235303131392d3134343835322e706e67"><img src="https://camo.githubusercontent.com/dc42d85f31617779cb59976310a404b67accebbd67432806ba2d786434435def/68747470733a2f2f696d616765732e636e626c6f67732e636f6d2f636e626c6f67735f636f6d2f626c6f67732f3833383234352f67616c6c65726965732f323434313333342f745f3235303131393036353035375f515132303235303131392d3134343835322e706e67" alt="weixin" data-canonical-src="https://images.cnblogs.com/cnblogs_com/blogs/838245/galleries/2441334/t_250119065057_QQ20250119-144852.png" style="max-width: 100%;"></a></p></div>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/69d42aebfa38b65a8de4ff40bf5fcec01b96386de55afcaf029eba770a77b71f/68747470733a2f2f696d616765732e636e626c6f67732e636f6d2f636e626c6f67735f636f6d2f626c6f67732f3833383234352f67616c6c65726965732f323434313333342f745f3235303131393036353035375f515132303235303131392d3134343835322e706e67"><img src="https://camo.githubusercontent.com/69d42aebfa38b65a8de4ff40bf5fcec01b96386de55afcaf029eba770a77b71f/68747470733a2f2f696d616765732e636e626c6f67732e636f6d2f636e626c6f67735f636f6d2f626c6f67732f3833383234352f67616c6c65726965732f323434313333342f745f3235303131393036353035375f515132303235303131392d3134343835322e706e67" alt="weixin" data-canonical-src="https://images.cnblogs.com/cnblogs_com/blogs/838245/galleries/2441334/t_250119065057_QQ20250119-144852.png" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -178,7 +178,7 @@ if("06/22/2024"!=""){
     var startSite=new Date("06/22/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
@@ -223,6 +223,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");
