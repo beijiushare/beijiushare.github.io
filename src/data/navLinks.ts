@@ -26,5 +26,5 @@ export const NAV_LINKS: readonly NavLinkItem[] = [
 
 export const LINK_MAP_EXTRA_LINKS: readonly NavLinkItem[] = [
   { label: 'CV', href: '/cv', display: 'https://www.beijiu.top/cv', Icon: IconCv, sameTab: true },
-  { label: 'Blog', href: 'https://blog.beijiu.top/', display: 'https://blog.beijiu.top/', Icon: IconBlog },
+  { label: 'Blog', href: 'https://beijiu.top/blog/', display: 'https://beijiu.top/blog/', Icon: IconBlog },
 ]

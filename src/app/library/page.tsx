@@ -18,8 +18,6 @@ const booksData: DoubanResponse = {
   doings: libraryData.books.doings,
 }
 
-export const revalidate = 86400
-
 export const metadata: Metadata = {
   title: '书与影',
   description: '书籍与影视记录',
